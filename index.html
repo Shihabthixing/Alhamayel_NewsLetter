@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <style type="text/css">
+      :root {--background:#F4F4F4}
+      
       .line::before{
         content: "";
         display: block;
@@ -71,10 +73,9 @@
             font-weight: inherit !important;
             line-height: inherit;
         }
-        .body_div{
-          background-color: #C5B2A1 !important;
+        .header_back{
+          box-shadow:0px 0px 15px #00000013;
         }
-        
         @media only screen and (max-width:667px) {
         .em_main_table {
             width: 100% !important;
@@ -186,16 +187,16 @@
 </head>
 <!-- Background Colour  -->
 
-<body class="em_body" style="margin:0px auto; padding:0px;background: #C5B2A1;">
+<body class="em_body" style="margin:0px auto; padding:0px;">
   <div class="body_div">
      <!-- == Header Section Start == -->
      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_full_wrap" style="table-layout:fixed;">
       <tr>
         <td align="center" valign="top"><table align="center" width="750" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width:750px; table-layout:fixed;" bgcolor="#ffffff">
-            <tr>
+            <tr class="header_back">
               <td align="center" valign="top" class="em_aside15" ><table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
                   <tr>
-                    <td height="63" style="height: 63px;;" class="em_h30">&nbsp;</td>
+                    <td height="63" style="height: 63px;" class="em_h30">&nbsp;</td>
                   </tr>
                   <tr>
                     <td class="logo" valign="middle" align="center" ><a href="https://dev.alhamayel.com/home.php" target="_blank" style="text-decoration:none;"><img src="https://uploads-ssl.webflow.com/60af3eea24fde23623fe42e6/60af58a20fd7d1537f6317eb_Logo.png" alt="" border="0" style="display:block; max-width:51px; font-family:Arial, sans-serif; font-size:17px; line-height:20px; color:#000000; font-weight:bold;" /></a></td>
@@ -231,7 +232,7 @@
     <!-- == Body Section Start == -->
     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_full_wrap" style="table-layout:fixed; ">
       <tr>
-        <td align="center" valign="top"><table align="center" width="750" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width:750px; background: white; table-layout:fixed;">
+        <td align="center" valign="top"><table align="center" width="750" border="0" cellspacing="0" cellpadding="0" class="em_main_table" style="width:750px; background: white; table-layout:fixed; box-shadow:0px 0px 15px #00000013;">
             <tr>
               <td height="38" style="height: 38px;" class="em_h20">&nbsp;</td>
             </tr>
